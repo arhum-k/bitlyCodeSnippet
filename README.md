@@ -18,4 +18,5 @@ This code uses React's useEffect and useState, conditional rendering, fetch requ
 ## Result
 ![Arhum Portfolio Image](https://github.com/arhum-k/bitlyCodeSnippet/assets/72320993/6ef97c60-00a2-4a00-ac78-8e8c7b3827ed)
 
+### Notes
 In the code, you wll also find some commented out code -- this code provides an analysis of the student's performance provided by ChatGPT 3.5. It is commented out because our prompt that we provide to ChatGPT on the backend is not up to standards, so some of the responses that we receive from ChatGPT aren't sufficient. 
