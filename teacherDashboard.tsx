@@ -13,22 +13,15 @@ export default function StudentActivityLog({ params }: { params: { id: string } 
 
     //STATE VARIABLES 
     
-    const [currentStudent, setCurrentStudent] = React.useState('Arhum')
-    const [currentQuestionIndex, setCurrentQuestionIndex] = React.useState(0)
     const character = "Jarvis"
-    const [practiceSet, setPracticeSet] = React.useState<any>(null);
-    const [isLoading, setIsLoading] = React.useState(true);
-    const [currentUser, setCurrentUser] = useState<User | null>(null);
     const [setId, setSetId] = useState<string | undefined>();
     const [teacherId, setTeacherId] = useState<string | undefined>();
     const [loading, setLoading] = useState(true);
     const [enrolledStudents, setEnrolledStudents] = useState<string[] | undefined>();
     const [studentsData, setStudentsData] = useState<any>({});
     const [practiceSetTitle, setPracticeSetTitle] = useState<string | undefined>();
-    const [studentIdsAndName, setstudentIdsAndName] = useState<any>({});
     const [practiceSetQuestions, setPracticeSetQuestions] = useState<any>({});
     const [currentStudentId, setCurrentStudentId] = useState<string | undefined>();
-    const [isStudentClicked, setIsStudentClicked] = useState(false);
     const [currentUserAnalysis, setCurrentUserAnalysis] = useState<any>({})
     const [showAnalysis, setShowAnalysis] = useState(false);
     const [allUserAnalysis, setAllUserAnalysis] = useState<Record<string, any>>({});
