@@ -1,5 +1,6 @@
-# Snippet from Choco.Quest
 *Code snippet for Bitly's Frontend Engineer Internship application.*
+
+# Snippet from Choco.Quest
 
 Choco.Quest is an AI tool that allows students to have the voice of their favorite celebrities/characters (Kobe Bryant, Batman, etc) guide them through their worksheets and offer assistance when needed. 
 
