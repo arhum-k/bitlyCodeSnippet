@@ -1,4 +1,4 @@
-*Code snippet for Bitly's Frontend Engineer Internship application.*
+
 
 # Snippet from Choco.Quest
 
